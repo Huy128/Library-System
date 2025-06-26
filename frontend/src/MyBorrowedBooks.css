@@ -1,0 +1,51 @@
+/* Basic CSS for MyBorrowedBooks with primary colors white and orange */
+
+.myborrowedbooks-container {
+  padding: 2rem;
+  background-color: white;
+  color: #f97316; /* orange */
+  font-family: Arial, sans-serif;
+}
+
+.myborrowedbooks-header {
+  color: #f97316; /* orange */
+  margin-bottom: 1rem;
+}
+
+.back-button {
+  background-color: #f97316;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #d4620f;
+}
+
+.borrowed-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.borrowed-list-item {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.return-button {
+  margin-left: 10px;
+  background-color: #f97316;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.return-button:hover {
+  background-color: #d4620f;
+}

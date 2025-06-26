@@ -1,0 +1,8 @@
+/* Basic CSS for App component with primary colors white and orange */
+
+.App {
+  background-color: white;
+  min-height: 100vh;
+  color: #f97316; /* orange */
+  font-family: Arial, sans-serif;
+}

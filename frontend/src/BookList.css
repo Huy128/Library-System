@@ -1,0 +1,23 @@
+/* Basic CSS for BookList with primary colors white and orange */
+
+.booklist-container {
+  padding: 20px;
+  background-color: white;
+  color: #f97316; /* orange */
+  font-family: Arial, sans-serif;
+}
+
+.booklist-header {
+  color: #f97316; /* orange */
+  margin-bottom: 1rem;
+}
+
+.booklist-ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.booklist-li {
+  margin-bottom: 10px;
+  color: #333;
+}

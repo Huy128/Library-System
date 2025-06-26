@@ -1,0 +1,31 @@
+/* Basic CSS for AdminDashboard with primary colors white and orange */
+
+.admin-dashboard-container {
+  padding: 2rem;
+  background-color: white;
+  color: #f97316; /* orange */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.admin-dashboard-button {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f97316;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-dashboard-button.logout {
+  background-color: #e74c3c;
+  margin-top: 30px;
+}
+
+.admin-dashboard-button:hover {
+  opacity: 0.9;
+}

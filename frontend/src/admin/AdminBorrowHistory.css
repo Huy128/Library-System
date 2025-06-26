@@ -1,0 +1,35 @@
+/* Basic CSS for AdminBorrowHistory with primary colors white and orange */
+
+.admin-borrowhistory-container {
+  padding: 2rem;
+  background-color: white;
+  color: #f97316; /* orange */
+  font-family: Arial, sans-serif;
+}
+
+.admin-borrowhistory-back-button {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #f97316;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-borrowhistory-back-button:hover {
+  opacity: 0.9;
+}
+
+.admin-borrowhistory-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.admin-borrowhistory-table th,
+.admin-borrowhistory-table td {
+  border: 1px solid #f97316;
+  padding: 10px;
+  text-align: left;
+}
